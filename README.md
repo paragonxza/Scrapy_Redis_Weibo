@@ -10,7 +10,7 @@
 
 - 在cmd/terminal输入**(scrapyd> ~/scrapyd.log &)**开启scrapyd服务
 - 在当前目录输入**scrapyd-deploy**部署爬虫项目
-- 输入**curl http://47.101.130.7:6800/schedule.json -d project=weibo -d spider=weibocn**远端启动
+- 输入**curl http://ipaddress:6800/schedule.json -d project=weibo -d spider=weibocn**远端启动
 
 # bloomfilter配置
 
@@ -38,7 +38,7 @@ BLOOMFILTER_HASH_NUMBER = 6
 # BloomFilter 的 bit 参数，默认 30，占用 128MB 空间，去重量级 1 亿
 BLOOMFILTER_BIT = 30
 # redis连接
-REDIS_URL = 'redis://root:important226@47.101.130.7:6379'
+REDIS_URL = 'redis://username:password6@ipaddress:6379'
 ```
 
 # 配置随机user-agent
