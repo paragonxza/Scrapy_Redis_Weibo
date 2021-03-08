@@ -104,10 +104,10 @@ BLOOMFILTER_HASH_NUMBER = 6
 # BloomFilter 的 bit 参数，默认 30，占用 128MB 空间，去重量级 1 亿
 BLOOMFILTER_BIT = 30
 # redis连接
-REDIS_URL = 'redis://root:important226@47.101.130.7:6379'
+REDIS_URL = 'redis://username:password@ipaddress:6379'
 
 # mongo连接
-MONGO_URI = 'mongodb://admin:103313@47.101.130.7:27017'
+MONGO_URI = 'mongodb://username:password@ipaddress:27017'
 MONGO_DATABASE = 'weibo-redis'
-PROXY_URL = 'http://47.101.130.7:5555/random'
+PROXY_URL = 'http://ipaddress:5555/random'
 RETRY_HTTP_CODES = [401, 403, 418, 408, 414, 500, 502, 503, 504]
